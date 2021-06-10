@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@drawable/moon2"
+              android:layout_height="match_parent">
+    <EditText
+            style="@style/estiloPersonalizado"
+            android:hint="Nombre"
+            android:inputType="textPersonName" android:id="@+id/introNombre" android:textColor="@color/white"
+            android:backgroundTint="@color/white" android:textColorHint="@color/white"
+            android:fontFamily="@font/roboto"/>
+
+    <EditText
+            android:id="@+id/introApellido"
+            style="@style/estiloPersonalizado"
+            android:hint="Apellido"
+            android:inputType="textPersonName" android:textColor="@color/white"
+            android:backgroundTint="@color/white" android:textColorHint="@color/white"
+            android:fontFamily="@font/roboto"/>
+
+    <EditText
+            android:id="@+id/introEmail"
+            style="@style/estiloPersonalizado"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress" android:textColor="@color/white" android:textColorHint="@color/white"
+            android:backgroundTint="@color/white" android:fontFamily="@font/roboto"/>
+
+    <EditText
+            android:id="@+id/introPass"
+            style="@style/estiloPersonalizado"
+            android:hint="@string/password"
+            android:inputType="textPassword" android:textColorHint="@color/white" android:textColor="@color/white"
+            android:backgroundTint="@color/white" android:fontFamily="@font/roboto"/>
+
+    <Button
+            style="@style/estiloPersonalizado"
+            android:onClick="register"
+            android:background="@color/gray_2"
+            android:text="@string/create"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" android:fontFamily="@font/roboto"/>
+</LinearLayout>

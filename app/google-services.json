@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "646641480535",
+    "project_id": "cryptotracker-dc2af",
+    "storage_bucket": "cryptotracker-dc2af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646641480535:android:5f597edd5ffdbf18b5c412",
+        "android_client_info": {
+          "package_name": "com.example.cryptotracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646641480535-r8358jtpqgg0enng4qf8d8kkaqdnnle0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHBF3CcnJTKc4Xi8Ri7IvUP11HwZZZ_Z8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646641480535-r8358jtpqgg0enng4qf8d8kkaqdnnle0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

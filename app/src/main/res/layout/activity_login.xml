@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/moon2"
+              android:orientation="vertical">
+
+    <EditText
+            android:id="@+id/enterEmail"
+            style="@style/estiloPersonalizado"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:backgroundTint="#FFFFFF" android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF" android:fontFamily="@font/roboto"/>
+
+    <EditText
+            android:id="@+id/enterPass"
+            style="@style/estiloPersonalizado"
+            android:hint="@string/password"
+            android:inputType="textPassword" android:backgroundTint="#FFFFFF" android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF" android:fontFamily="@font/roboto"/>
+
+    <Button
+            android:id="@+id/btnLogin"
+            style="@style/estiloPersonalizado"
+            android:background="@color/gray_2"
+            android:text="@string/login"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:onClick="login" android:fontFamily="@font/roboto"/>
+
+    <Button
+            android:id="@+id/create"
+            style="@style/estiloPersonalizado"
+            android:background="@color/gray_2"
+            android:text="@string/create"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:onClick="register" android:fontFamily="@font/roboto"/>
+
+    <TextView
+            android:id="@+id/txtForgotPassword"
+            style="@style/estiloPersonalizado"
+            android:layout_below="@id/btnLogin"
+            android:onClick="forgotPassword"
+            android:gravity="center_horizontal"
+            android:text="@string/forgotPassword"
+            android:textSize="20sp" android:textColor="#FFFFFF" android:fontFamily="@font/roboto"/>
+</LinearLayout>
